@@ -1,0 +1,30 @@
+.App {
+  /* text-align: center; */
+  margin: 0;
+  padding:0;
+}
+.hello{
+  color: cyan;
+  background-color: black;
+  padding-top: 1px;
+  text-align: center;
+  padding-bottom: 0;
+}
+.heading{
+  text-align: center;
+}
+.ml-3{
+  margin-left: 10px;
+}
+.btn-primary{
+  background-color: black;
+  color: white;
+  outline: none;
+  border-radius: 7%;
+  padding: 5px;
+  font-size: medium;
+}
+body{
+  background-color: black;
+  color: white;
+}
