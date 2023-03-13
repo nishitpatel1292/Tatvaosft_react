@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import Counter from '../components/counter';
+// import Counter from '../components/counter';
 import List from '../components/List';
 class Home extends Component
 {

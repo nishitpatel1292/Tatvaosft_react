@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title'
-export default function () {
+export default function List () {
   const arr = [
     {
       title: "India",
