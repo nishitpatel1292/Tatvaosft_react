@@ -19,7 +19,7 @@ export default function List () {
     }
   ]
   const render_arr = arr.map((item)=>
-  (<Title key={item.id} data={item}/>)
+  (<Title key={item.title} data={item}/>)
   )
   return (
     <div>
