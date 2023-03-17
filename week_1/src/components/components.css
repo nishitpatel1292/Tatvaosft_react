@@ -1,0 +1,50 @@
+/* for loginform */
+#uname{
+    padding: 8px;
+    margin: 8px;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-submit {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #00aad9 ;
+    color: #fff;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #00aad9;
+  }
+  
