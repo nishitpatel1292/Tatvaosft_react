@@ -2,13 +2,23 @@
   /* text-align: center; */
   margin: 0;
   padding:0;
+  display: flex;
+  justify-content: center;
 }
-.hello{
-  color: cyan;
-  background-color: black;
+.main-container{
+  color: black;
   padding-top: 1px;
   text-align: center;
   padding-bottom: 0;
+  width: 80%;
+  border: 2px solid #15d7d7;
+  margin-top: 2.5rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  height: 556px;
+  align-items: center;
+  background : linear-gradient(to bottom, #0ff, #668f8f);
+  
 }
 .heading{
   text-align: center;
@@ -26,6 +36,7 @@
   background-color: black;
   font-weight: bold;
   cursor: pointer;
+  width: 8rem;
 }
 .btn-primary:hover{
   background-color: #00aad9;
@@ -33,4 +44,26 @@
 body{
   background-color: black;
   color: white;
+}
+.nav-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:2rem;
+}
+input{
+  background: none;
+  color: #fff;
+  /* border: 1px solid #00ffff; */
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+  border-color: #66d9ef;
+}
+.title{
+  letter-spacing: 1rem;
+  color: black;
+  justify-content: center;
 }

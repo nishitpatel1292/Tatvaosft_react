@@ -21,11 +21,12 @@ function App() {
   }
   return (
     <div className="App">
-      <div className='hello'>
-        <h2> TATVASOFT  </h2>
-
-        <button className='btn-primary' onClick={HandlePageChange}>Change Page</button>
-        <button className='btn-primary' onClick={HandleRegister}>Register</button>
+      <div className='main-container'>
+        <h2 className='title'> TATVASOFT  </h2>
+      <div className='nav-btns'>
+          <button className='btn-primary' onClick={HandlePageChange}>Change Page</button>
+          <button className='btn-primary' onClick={HandleRegister}>Register</button>
+      </div>
         { (Page==="Home")?
           <Home />:(Page==="About")?<About />:<Register/>
         }
