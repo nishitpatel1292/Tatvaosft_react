@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <div className='main-container'>
-        <h2 className='title'> TATVASOFT  </h2>
+        <h2 className='main-title'> TATVASOFT  </h2>
       <div className='nav-btns'>
           <button className='btn-primary' onClick={HandlePageChange}>Change Page</button>
           <button className='btn-primary' onClick={HandleRegister}>Register</button>

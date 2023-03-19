@@ -53,7 +53,7 @@ body{
 }
 input{
   background: none;
-  color: #fff;
+  color: #000;
   /* border: 1px solid #00ffff; */
   outline: none;
 }
@@ -62,7 +62,7 @@ input:focus {
   outline: none;
   border-color: #66d9ef;
 }
-.title{
+.main-title{
   letter-spacing: 1rem;
   color: black;
   justify-content: center;
